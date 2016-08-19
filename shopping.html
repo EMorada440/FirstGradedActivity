@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Eugene Morada-->
+    <meta charset="UTF-8">
+    <title>Shopping Calculator</title>
+</head>
+<body>
+    <form method="get"
+          id="shoppingForm">
+<fieldset>
+<table border="1">
+    <tr>
+        <td><label for="quantity">Quantity</label></td>
+        <td><input tpye="number" name="quantity"
+                   id="quantity"
+                   value="1"
+                   min="1"
+                   required>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="price">Price Per Unit</label></td>
+        <td><input id="price"
+                   type="text"
+                   value="1.00"
+                   required>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="tax">Tax Rate(%)</label></td>
+        <td><input id="tax"
+                   type="text"
+                   value="1.00"
+                   required>
+        </td>
+
+    </tr>
+    <tr>
+        <td><label for="discount">Discount</label></td>
+        <td><input id="discount"
+                   type="text"
+                   value="0.00"
+                   required>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="total">Total</label></td>
+        <td><input id="total"
+                   type="text"
+                   value="0.00"
+                   readonly>
+        </td>
+    </tr>
+    <tr>
+            <td colspan="2" align="right">
+            <input type="submit"
+                   id="submit"
+                   value="Calculate"
+                   </td>
+
+
+
+
+
+    </tr>
+</table>
+
+
+
+
+</fieldset>
+</form>
+</body>
+</html>
